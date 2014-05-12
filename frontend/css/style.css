@@ -1,0 +1,62 @@
+ @import url("normalize.css");
+ /*Default font is 16px*/
+
+
+
+
+@media screen and (min-width: 639px){
+	header, section, footer{
+	max-width: 950px;
+	margin: auto;
+}
+	section img{
+		width: 31%;
+		margin: 1%;
+	}
+	.imglink{
+		width: 31%;
+		margin: 10px;
+	}
+
+	footer{}
+}
+
+@media screen and (max-width: 639px){
+	header, section, footer{
+	max-width: 639px;
+	margin: auto;
+}
+	section img{
+		width: 44%;
+		margin: 2%;
+	}
+	.imglink{
+		width: 45%;
+		margin: 10px;
+	}
+}
+
+body{
+	background-color: #333;
+}
+.imglink{display: inline-block;}
+
+nav ul li{
+	display: inline-block;
+}
+
+/*Fonts*/
+body{
+	font-family: 'Montserrat'
+}
+.site-title{
+	font-size: 3em;
+}
+nav ul li{
+	color: #efefef;
+}
+li:nth-of-type(2){
+	float: right;
+	margin-top: 20px;
+}
+.contact{color: #efefef;}

@@ -1,0 +1,29 @@
+/*RESETS*/
+*{
+	margin: 0; 
+	padding: 0;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;}
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+body{
+	font-size: 16px;
+}
+
+img{ max-width: 100%!important;}
+.clearfix:before, .clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+/* For IE 6/7 only */
+.clearfix {*zoom: 1;}
+ /*more IE stuff*/
+ aside, nav, 
+ footer, header, 
+ section, article{display: block;}
